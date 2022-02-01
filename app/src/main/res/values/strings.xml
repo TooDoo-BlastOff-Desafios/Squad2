@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FiPay</string>
+    <string name="fipay_logo">FiPay Logo</string>
+    <string name="welcome_image_description">One hand holding a card machine while another makes the payment.</string>
+    <string name="welcome">Welcome</string>
+    <string name="fipay_tagline">FiPay: The best multifunctional digital E-Wallet of this century</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_an_account">Create an account</string>
 </resources>
