@@ -1,13 +1,12 @@
 package br.com.toodoo.fipay.ui.authentication
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.CheckBox
-import android.widget.ProgressBar
-import android.widget.TextView
+import android.widget.*
 import br.com.toodoo.fipay.R
 import br.com.toodoo.fipay.helper.FirebaseHelper
 import br.com.toodoo.fipay.model.User
@@ -21,6 +20,9 @@ class SignInActivity : AppCompatActivity() {
     private lateinit var editPassword: TextView
     private lateinit var cbRememberMe: CheckBox
     private lateinit var progressBar: ProgressBar
+
+    private lateinit var sharedPreferences: SharedPreferences
+    private lateinit var editor: SharedPreferences.Editor
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,6 +39,9 @@ class SignInActivity : AppCompatActivity() {
         editPassword = findViewById(R.id.editPassword)
         cbRememberMe = findViewById(R.id.cbRememberMe)
         progressBar = findViewById(R.id.progressBar)
+
+        sharedPreferences = getSharedPreferences(getString(R.string.pref_key), Context.MODE_PRIVATE)
+        editor = sharedPreferences.edit()
     }
 
     private fun setClickListeners() {
@@ -51,6 +56,12 @@ class SignInActivity : AppCompatActivity() {
 
         findViewById<TextView>(R.id.textSignUp).setOnClickListener {
             startActivity(Intent(this@SignInActivity, SignUpActivity::class.java))
+        }
+
+
+        cbRememberMe.setOnClickListener {
+            editor.putBoolean(getString(R.string.shp_remember_me), cbRememberMe.isChecked)
+            editor.apply()
         }
     }
 
