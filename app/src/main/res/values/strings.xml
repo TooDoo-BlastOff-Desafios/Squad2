@@ -29,4 +29,15 @@
     <string name="forgot_the_password">Forgot the password?</string>
     <string name="pref_key">fipay_sharedpref</string>
     <string name="shp_remember_me">rememberMe</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password_text">Please enter your e-mail. We will confirm the password change via e-mail.</string>
+    <string name="confirm">Confirm</string>
+    <string name="hamburger_menu">Hamburger menu</string>
+    <string name="toolbar_title_placeholder">Toolbar title</string>
+    <string name="upcoming_bill">Upcoming bill</string>
+    <string name="see_all">See All</string>
+    <string name="balance">Balance</string>
+    <string name="money_placeholder">$1299.15</string>
+    <string name="account_number">Account number</string>
+    <string name="account_number_placeholder">*** *** *** 8399</string>
 </resources>

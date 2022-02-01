@@ -5,11 +5,21 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/btn_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_fi_logo.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable/ic_card_background.xml" value="0.294" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/input_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rounded_corners_bg.xml" value="0.2945" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.21574074074074073" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.328125" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.328125" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.328125" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/credit_card.xml" value="0.328125" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.21574074074074073" />
+        <entry key="app/src/main/res/layout/toolbar_nav_menu.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/layout/upcoming_bill_item.xml" value="0.328125" />
       </map>
     </option>
   </component>
