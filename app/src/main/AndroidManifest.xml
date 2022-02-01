@@ -10,14 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FiPay">
         <activity
+            android:name=".ui.authentication.SignUpActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.WelcomeActivity"
             android:exported="false"
-            android:theme="@style/Theme.FiPay.WelcomeScreen"/>
+            android:theme="@style/Theme.FiPay.WelcomeScreen" />
         <activity
             android:name=".ui.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
