@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FiPay">
         <activity
+            android:name=".ui.authentication.SignInActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.authentication.SignUpActivity"
             android:exported="false" />
         <activity
